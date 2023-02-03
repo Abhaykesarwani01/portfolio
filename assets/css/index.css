@@ -39,7 +39,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url('assets/img/background/bg-texture.png');
+    background-image: url('../img/background/bg-texture.png');
 }
 
 header{
