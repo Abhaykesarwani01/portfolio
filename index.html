@@ -7,6 +7,10 @@
     <title>developer_abhay_</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://kit.fontawesome.com/a17d5366d1.js" crossorigin="anonymous"></script>
+    
+    <!-- animate on scroll Javascript -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -46,7 +50,7 @@
     </nav>
 
 
-    <section id="about">
+    <section data-aos="fade-up" id="about">
 
         <h5>Get To Know</h5>
         <h2>About Me</h2>
@@ -96,7 +100,7 @@
 
     </section>
     
-    <section id="portfolio">
+    <section data-aos="fade-up" id="portfolio">
         <h5>My Recent Work</h5>
         <h2>Projects</h2>
         <div class="container portfolio__container">
@@ -128,7 +132,7 @@
     </section>
 
 
-    <section id="experience">
+    <section data-aos="fade-up" id="experience">
 
         <h5>What Skills I Have</h5>
         <h2>My Experience</h2>
@@ -250,7 +254,7 @@
     </section>
 
 
-    <section id="services">
+    <section data-aos="fade-up" id="services">
         <h5>What I Offer</h5>
         <h2>Services</h2>
 
@@ -356,7 +360,7 @@
 
     
 
-    <section id="contact">
+    <section data-aos="fade-up" id="contact">
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>
         <div class="container contact__container">
@@ -414,4 +418,9 @@
 
 
 </body>
+<script>
+    AOS.init({
+        offset: 250,
+    });
+</script>
 </html>
