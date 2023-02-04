@@ -31,11 +31,10 @@ html{
 ::-webkit-scrollbar{
     display: none;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body{
-    font-family: 'Concert One', cursive;
+    font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
