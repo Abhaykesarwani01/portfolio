@@ -12,6 +12,7 @@ This file is used to store any documentation related to the project, such as set
 
 ```bash
 git clone https://dhanu2@bitbucket.org/saketrtkmalik/freshline-mobile-app.git
+```
 <p><strong>Step 2:</strong> Create a new branch from main branch</p> <p><strong>Step 3:</strong> Initial setup of React Native referred through React Official Docs</p> <p> Follow all the steps mentioned in the document for app setup. </p> <p><strong>Step 4:</strong> Post successful installation of the app, maintain <code>.gitignore</code> file and push the changes to the branch.</p>
 2. Architecture Setup
 2.1 Environment Setup
